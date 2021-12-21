@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KnoxTeams Regression Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mepro.extentreport.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="KnoxTeams App Test Cases(failed)">
+    <classes>
+      <class name="com.mepro.test.LoginPageTest">
+        <methods>
+          <include name="beforeTestMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginHelp"/>
+        </methods>
+      </class> <!-- com.mepro.test.LoginPageTest -->
+    </classes>
+  </test> <!-- KnoxTeams App Test Cases(failed) -->
+</suite> <!-- Failed suite [KnoxTeams Regression Test Suite] -->

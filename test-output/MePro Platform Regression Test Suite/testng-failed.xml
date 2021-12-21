@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MePro Platform Regression Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mepro.extentreport.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="MePro Application Test Cases(failed)">
+    <classes>
+      <class name="com.mepro.test.WelcomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyUserNameProffileLink"/>
+          <include name="setup"/>
+          <include name="beforeTestMethod"/>
+        </methods>
+      </class> <!-- com.mepro.test.WelcomePageTest -->
+    </classes>
+  </test> <!-- MePro Application Test Cases(failed) -->
+</suite> <!-- Failed suite [MePro Platform Regression Test Suite] -->

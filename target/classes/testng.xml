@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  
+<suite name="MePro Platform Regression Test Suite" >
+
+	<listeners>
+		<listener class-name="com.mepro.extentreport.ExtentReporterNG"/>
+	</listeners>
+	
+	
+  <test name="MePro Application Regression Test Cases" >
+    <classes>
+       <class name="com.mepro.test.LoginPageTest"/>
+       <class name="com.mepro.test.NewUserLandingPageTest"/>
+       <class name="com.mepro.test.PlacementQuizTest"/>
+    </classes>
+  </test>
+</suite>

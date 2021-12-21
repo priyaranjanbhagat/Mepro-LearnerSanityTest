@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-04T17:20:56Z" name="Default suite" finished-at="2020-10-04T17:26:17Z" duration-ms="321804">
+    <groups>
+    </groups>
+    <test started-at="2020-10-04T17:20:56Z" name="Default test" finished-at="2020-10-04T17:26:17Z" duration-ms="321804">
+      <class name="com.mepro.test.LearningModulePageTest">
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mepro.test.LearningModulePageTest@1f0f1111]" started-at="2020-10-04T17:20:56Z" name="beforeTestMethod" finished-at="2020-10-04T17:20:56Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mepro.test.LearningModulePageTest.verifyModuleLoading()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mepro.test.LearningModulePageTest@1f0f1111]" started-at="2020-10-04T17:20:56Z" name="setup" finished-at="2020-10-04T17:21:10Z" duration-ms="14400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyModuleLoading()[pri:4, instance:com.mepro.test.LearningModulePageTest@1f0f1111]" started-at="2020-10-04T17:21:10Z" name="verifyModuleLoading" finished-at="2020-10-04T17:26:17Z" duration-ms="306445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyModuleLoading -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mepro.test.LearningModulePageTest@1f0f1111]" started-at="2020-10-04T17:26:17Z" name="tearDown" finished-at="2020-10-04T17:26:17Z" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mepro.test.LearningModulePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
